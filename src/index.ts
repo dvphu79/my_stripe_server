@@ -712,6 +712,6 @@ app.post('/payment-intent-for-payment-sheet', async (req, res) => {
   }
 });
 
-app.listen(80, (): void =>
-  console.log(`Node server listening on port ${80}!`)
+app.listen(4242, (): void =>
+  console.log(`Node server listening on port ${4242}!`)
 );
